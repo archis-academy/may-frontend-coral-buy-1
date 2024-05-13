@@ -1,0 +1,31 @@
+/* typogrphy */
+$primary-font: "Open Sans", sans-serif;
+$secondary-font: "Roboto", sans-serif;
+
+$font-xs: 0.75rem; // 12px
+$font-sm: 0.875rem; // 14px
+$font-md: 1rem; // 16px
+$font-lg: 1.125rem; // 18px
+$font-xl: 1.25rem; // 20px
+$font-xxl: 1.5rem; // 24px
+$font-xxxl: 2rem; // 32px
+
+//  colors
+$black: #000;
+$dark: #1e2832;
+$primary-color: #1e1e1e;
+$secondary-color: #ff6f61;
+$grey-color: rgba(0, 0, 0, 0.5);
+
+// breakpoints
+$mobile-sm: 320px;
+$mobile-md: 425px;
+$mobile: 480px;
+$tablet-sm: 576px;
+$tablet-md: 768px;
+$tablet-lg: 1200px;
+$tablet: 1024px;
+$desktop-sm: 1280px;
+$desktop-md: 1366px;
+$desktop-lg: 1600px;
+$desktop-xl: 1920px;
