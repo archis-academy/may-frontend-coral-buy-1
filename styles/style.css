@@ -1,0 +1,14 @@
+.brand-logos-img{
+    display: flex;
+    justify-content: space-between;
+    width: 1.320px;
+    height: 70px;
+    margin-top: 937px;
+    margin-left: 300px;
+
+}
+
+.img{
+    width: 200px;
+    height: 70px;
+}
