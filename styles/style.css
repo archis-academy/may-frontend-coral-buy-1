@@ -16,6 +16,7 @@
   display: flex;
   flex-direction: column;
   margin: 0 10px;
+  cursor: pointer;
 }
 
 .card:hover {
@@ -86,9 +87,11 @@
   color: red;
   font-size: 14px;
   margin-left: 5px;
+  font-weight: bold;
 }
 
 .card-ctg,
 .price-old {
   color: rgb(179, 179, 179);
+  font-weight: 300;
 }
