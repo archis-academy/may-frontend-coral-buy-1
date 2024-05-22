@@ -1,10 +1,92 @@
 <!DOCTYPE html>
-<html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Coral Buy</title>
-    <link rel="stylesheet" href="style.css" />
-  </head>
-  <body></body>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ürün Sayfası</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+        }
+        .navbar {
+            display: flex;
+            justify-content: space-around;
+            background-color: #333;
+            padding: 10px;
+        }
+        .navbar a {
+            color: white;
+            text-decoration: none;
+            padding: 14px 20px;
+        }
+        .navbar a:hover {
+            background-color: #ddd;
+            color: black;
+        }
+        .product-container {
+            display: flex;
+            justify-content: space-around;
+            padding: 20px;
+            
+        }
+        .product {
+            text-align: center;
+            margin: 10px;
+            
+        }
+        .product img {
+            width: 200px;
+            height: auto;
+        }
+        .product-description {
+            font-size: 14px;
+            margin-top: 10px;
+        }
+        .product-price {
+            font-size: 16px;
+            font-weight: bold;
+            margin-top: 5px;
+        }
+        .product-name {
+            color: grey;
+        }
+        .sales-product{
+          color:red;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="navbar">
+        <a href="#">All Product</a>
+        <a href="#">T-Shirt</a>
+        <a href="#">Hoodles</a>
+        <a href="#">Jacket</a>
+    </div>
+
+    <div class="product-container">
+        <div class="product">
+            <img src="images/product-card-template-images/product-card-template-bag.png" alt="">
+            <div class="product-description">Adicolor Classic Joggers</div>
+            <div class="product-price"><span class="product-name">Dress</span> $63.85</div>
+        </div>
+        <div class="product">
+            <img src="images/product-view-template-images/product-view-template-jogger.png" alt="">
+            <div class="product-description">Nike Sportswear Futura Luxe</div>
+            <div class="product-price"><span class="product-name">Bag</span> $130.00</div>
+        </div>
+        <div class="product">
+          <img src="images/product-view-template-images/product-view-template-scraft.png" alt="">
+          <div class="product-description">Geometric Print Scarf</div>
+          <div class="product-price"><span class="product-name">Scarf</span> $.00</div>
+      </div>
+        <div class="product">
+          <img src="images/product-view-template-images/product-view-template-hoodie.png" alt="">
+          <div class="product-description">Yellow Reserved Hoodie</div>
+          <div class="product-price"><span class="product-name">Dress</span> $364.00 <span class="sales-product">$155.00</span> </div>
+      </div>
+      
+    </div>
+
+</body>
 </html>
