@@ -1,0 +1,36 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+}
+
+@keyframes slide {
+  from {
+    transform: translateX(0);
+  }
+  to {
+    transform: translateX(-100%);
+  }
+}
+
+.brand-logos-img {
+  overflow: hidden;
+  display: flex;
+  justify-content: space-between;
+  white-space: nowrap;
+  max-width: 1350px;
+  margin: 0 auto;
+}
+
+.brand-logos-img:hover .logos-slide {
+  animation-play-state: paused;
+}
+
+.logos-slide {
+  display: inline-block;
+  animation: 10s slide infinite linear;
+}
+.logos-slide img {
+  padding: 0 40px;
+}
