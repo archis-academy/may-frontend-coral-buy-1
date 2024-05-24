@@ -1,72 +1,62 @@
-@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
-
-.body{
-    width: 1920px;
-    height:776px ;
-    top:3166px;
-    position: cover;
-    font-family: "Roboto",sans-serif;
-}
-.Brand-Banner{
-    width: 1920px;
-    height: 776px;
-    background-image: url("../images/brand-banner/background.png");
-    top: 100%;
-    background-repeat: no-repeat;
-    background-position: relative ;
-    
-}
-.logo-img{
-    width: 732px;
-    height: 309px;
-    margin-left: 1244px;
-    margin-top: 51px;
+* {
+  margin: 0;
+  padding: 0;
 }
 
-.front-image{
-        top: 233px;
-        width: 191px;
-        height: 81px;
-        margin-left: 1083px;
-  }
-
-  .text{
-    width: 504px;
-    height: 187px;
-    top: 369px;
-    margin-left: 1083px;
-  }
-
-  .intro-text{
-    color: white;
-    font-size: 26px;
-    font-weight: 400px;
-    line-height: 40px;
-    
-  }
-    
-.buttons{
-    width:237px;
-    height:72px;
-    top: 611px;
-    margin-left: 1083px;
-    color: fffff; 
-    font:large
-       
+.banner-container {
+  width: 1920px;
+  height: 776px;
+  background-color: red;
 }
 
-.button{
-width: Hug (237px)px;
-height: Hug (72px)px;
-top: 611px;
-left: 1083px;
-padding: 19px 26px 19px 26px;
-gap: 8px;
-opacity: 0px;
-font:bolder;
-background-color: white;
-font-size: larger;
-cursor: pointer;
-font-weight: bolder 20%;
+.bg-img {
+  background-image: url("/images/brand-banner/background.png");
+  width: 100%;
+  height: 100%;
+  position: relative;
+}
 
+.banner-bg-logo {
+  width: 732px;
+  height: 309px;
+  position: absolute;
+  right: 0;
+  top: 51px;
+}
+
+.banner-bg-logo > img {
+  width: 100%;
+  height: 100%;
+  opacity: 0.8;
+}
+
+.banner-context {
+  height: 533px;
+  width: 837px;
+  position: absolute;
+  top: 233px;
+  left: 1083px;
+}
+
+.img-logo {
+  height: 81px;
+  width: 191px;
+  margin-bottom: 55px;
+}
+
+.banner-text {
+  color: white;
+  width: 60%;
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  line-height: 40px;
+  font-size: 26px;
+}
+
+.banner-btn {
+  padding: 19px 26px;
+  font-size: 29px;
+  font-family: "Roboto", sans-serif;
+  line-height: 34px;
+  margin-top: 55px;
 }
