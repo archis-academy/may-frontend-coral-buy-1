@@ -5,6 +5,11 @@
   font-family: "Roboto", sans-serif;
 }
 
+html,
+body {
+  overflow-x: hidden;
+}
+
 .bs-container {
   width: 1320px;
   height: 639px;
@@ -17,7 +22,7 @@
 }
 
 .bs-sub-title {
-  font-size: 50px;
+  font-size: clamp(25px, 5vw, 50px);
   font-weight: 500;
 }
 
@@ -61,12 +66,8 @@
 }
 
 .swiper {
-  width: 1320px;
-  height: 478px;
-}
-
-.swiper-wrapper {
-  display: relative;
+  width: 100%;
+  height: 100%;
 }
 
 .swiper-slide {
@@ -101,6 +102,7 @@
 
 .bs-card-img {
   position: relative;
+  max-width: max-content;
 }
 
 .bs-sale {
@@ -168,18 +170,34 @@
 }
 
 @media screen and (max-width: 1024px) {
-  .bs-cards {
-    min-width: 1024px;
-    overflow-x: auto;
+  .bs-container {
+    width: 95%;
   }
 
-  .bs-sale {
-    height: 18px;
-    width: 40px;
-    top: 17px;
+  .swiper {
+    width: 1320px;
+  }
+}
+
+@media screen and (max-width: 834px) {
+  .bs-container {
+    width: 100%;
   }
 
-  .bs-sale > span {
-    font-size: 10px;
+  .swiper {
+    width: 980px;
+  }
+
+  .swiper-button-next,
+  .swiper-button-prev {
+    display: none !important;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .bs-menu {
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 25px;
   }
 }
