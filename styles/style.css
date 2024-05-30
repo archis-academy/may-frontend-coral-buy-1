@@ -1,11 +1,18 @@
-.newsletter-instagram{
-    
-    background-color: #1E28320D;
-    text-align: center;
-    font-family: 'roboto'
-
+.email{
+    font-family: 'roboto';
+    text-align: center;  
 }
 
+.newsletter-instagram{
+
+    background-color: #1E28320D;
+}
+.discountsonInstagramheadline{
+    padding: 10px 0px 10px 0px;
+    text-align: center;
+    font-size: auto;
+    font-family: 'roboto'
+}
 .Instagram-email{
     border: 0px;
     border-bottom: 2px solid black;
@@ -24,7 +31,6 @@
 
 
 button{
-    
     border: 0px;
     border-bottom: 2px solid black;
     margin: 0 auto;
@@ -32,14 +38,16 @@ button{
     
 
 }
+button:hover{
+    color: orangered;
+    border-bottom: 2px solid orangered;
+}
+
 .subscribeheadline{
    font-family: 'roboto';
    text-align: center; 
    text-shadow: 0px 0px 10px 0px black;
    font-weight: bolder
-   
-   
-
 }
 
 ;
