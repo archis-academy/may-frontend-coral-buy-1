@@ -52,7 +52,7 @@
 
 /* Mobile screen */
 
-@media screen and (max-width: 1000px) {
+@media screen and (max-width: 1300px) {
   .hot-category {
     padding: 0 30px 0 50px;
     min-width: 200px;
@@ -80,7 +80,7 @@
 
 /* Desktop screen */
 
-@media screen and (min-width: 1000px) {
+@media screen and (min-width: 1300px) {
   .hot-category {
     padding: 0 30px 0 50px;
     &::after {
