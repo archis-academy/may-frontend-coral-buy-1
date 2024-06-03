@@ -11,7 +11,7 @@ body {
 }
 
 .bs-container {
-  width: 1320px;
+  max-width: 1320px;
   height: 639px;
   display: flex;
   flex-direction: column;
@@ -71,7 +71,7 @@ body {
 }
 
 .swiper-slide {
-  width: 373px;
+  max-width: 373px;
 }
 
 .swiper-button-next {
@@ -89,7 +89,7 @@ body {
 }
 
 .bs-card {
-  width: 312px;
+  max-width: 312px;
   height: 478px;
   display: flex;
   flex-direction: column;
@@ -100,9 +100,12 @@ body {
   opacity: 0.3;
 }
 
-.bs-card-img {
+.bs-card-img-wrapper {
   position: relative;
-  max-width: max-content;
+}
+
+.bs-card-img {
+  width: 100%;
 }
 
 .bs-sale {
@@ -171,21 +174,7 @@ body {
 
 @media screen and (max-width: 1024px) {
   .bs-container {
-    width: 95%;
-  }
-
-  .swiper {
-    width: 1320px;
-  }
-}
-
-@media screen and (max-width: 834px) {
-  .bs-container {
-    width: 100%;
-  }
-
-  .swiper {
-    width: 980px;
+    margin: 0 15px;
   }
 
   .swiper-button-next,
@@ -194,10 +183,31 @@ body {
   }
 }
 
+@media screen and (max-width: 834px) {
+  .bs-card {
+    max-width: 400px;
+    height: 500px;
+  }
+}
+
 @media screen and (max-width: 480px) {
+  .bs-container {
+    height: 660px;
+  }
   .bs-menu {
     flex-direction: column;
     align-items: center;
-    margin-bottom: 25px;
+    margin-bottom: 15px;
+  }
+
+  .bs-menu-items {
+    max-width: 100%;
+    gap: 10px;
+  }
+  .swiper {
+    width: 85%;
+  }
+  .bs-card {
+    max-width: 1000px;
   }
 }

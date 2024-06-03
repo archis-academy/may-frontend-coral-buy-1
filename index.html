@@ -42,10 +42,11 @@
           <!-- =>Card - 1 -->
           <div class="swiper-slide">
             <div class="bs-card">
-              <div class="bs-card-img">
+              <div class="bs-card-img-wrapper">
                 <img
                   src="images/product-card-template-images/product-card-template-dress.png"
                   alt="basic green dress"
+                  class="bs-card-img"
                 />
                 <div class="bs-sale hot">
                   <span>HOT</span>
@@ -63,10 +64,11 @@
           <!-- =>Card - 2 -->
           <div class="swiper-slide">
             <div class="bs-card">
-              <div class="bs-card-img">
+              <div class="bs-card-img-wrapper">
                 <img
                   src="images/product-card-template-images/product-card-template-bag.png"
                   alt="nike sportswear futura luxa"
+                  class="bs-card-img"
                 />
               </div>
               <div class="bs-card-body">
@@ -81,10 +83,11 @@
           <!-- =>Card - 3 -->
           <div class="swiper-slide">
             <div class="bs-card">
-              <div class="bs-card-img">
+              <div class="bs-card-img-wrapper">
                 <img
                   src="images/product-card-template-images/product-card-template-hoodie.png"
                   alt="yellow reserved hoodie"
+                  class="bs-card-img"
                 />
                 <div class="bs-sale default">
                   <span>SALE</span>
@@ -105,10 +108,11 @@
           <!-- =>Card - 4 -->
           <div class="swiper-slide">
             <div class="bs-card">
-              <div class="bs-card-img">
+              <div class="bs-card-img-wrapper">
                 <img
                   src="images/product-card-template-images/product-card-template-shoe.png"
                   alt="nike air zoom pegasus"
+                  class="bs-card-img"
                 />
                 <div class="bs-sale default">
                   <span>SALE</span>
@@ -129,10 +133,11 @@
           <!-- =>Card - 5 -->
           <div class="swiper-slide">
             <div class="bs-card">
-              <div class="bs-card-img">
+              <div class="bs-card-img-wrapper">
                 <img
                   src="images/product-card-template-images/product-card-template-dress.png"
                   alt="basic green dress"
+                  class="bs-card-img"
                 />
                 <div class="bs-sale hot">
                   <span>HOT</span>
@@ -150,10 +155,11 @@
           <!-- =>Card - 6 -->
           <div class="swiper-slide">
             <div class="bs-card">
-              <div class="bs-card-img">
+              <div class="bs-card-img-wrapper">
                 <img
                   src="images/product-card-template-images/product-card-template-bag.png"
                   alt="nike sportswear futura luxa"
+                  class="bs-card-img"
                 />
               </div>
               <div class="bs-card-body">
@@ -168,10 +174,11 @@
           <!-- =>Card - 7 -->
           <div class="swiper-slide">
             <div class="bs-card">
-              <div class="bs-card-img">
+              <div class="bs-card-img-wrapper">
                 <img
                   src="images/product-card-template-images/product-card-template-hoodie.png"
                   alt="yellow reserved hoodie"
+                  class="bs-card-img"
                 />
                 <div class="bs-sale default">
                   <span>SALE</span>
@@ -192,10 +199,11 @@
           <!-- =>Card - 8 -->
           <div class="swiper-slide">
             <div class="bs-card">
-              <div class="bs-card-img">
+              <div class="bs-card-img-wrapper">
                 <img
                   src="images/product-card-template-images/product-card-template-shoe.png"
                   alt="nike air zoom pegasus"
+                  class="bs-card-img"
                 />
                 <div class="bs-sale default">
                   <span>SALE</span>
@@ -224,11 +232,11 @@
     <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
     <script>
       const swiper = new Swiper(".swiper", {
-        slidesPerView: 4,
+        slidesPerView: 1,
         spaceBetween: 30,
         loop: true,
         autoplay: {
-          delay: 3000,
+          delay: 2500,
           disableOnInteraction: false,
         },
 
@@ -239,16 +247,12 @@
         },
         breakpoints: {
           480: {
-            slidesPerView: 3,
+            slidesPerView: 2,
             spaceBetween: 20,
           },
           768: {
             slidesPerView: 3,
-            spaceBetween: 20,
-          },
-          834: {
-            slidesPerView: 3,
-            spaceBetween: 20,
+            spaceBetween: 10,
           },
           1024: {
             slidesPerView: 4,
