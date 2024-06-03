@@ -1,86 +1,65 @@
-.email{
-    font-family: 'roboto';
-    text-align: center;  
+.email {
+  font-family: "roboto";
+  text-align: center;
 }
-.instagram-photo{
-    margin:auto;
-    width: max-content;
-    justify-content: space-between;
-    display: flex;gap: 10px;
-
-    
-
+.instagram-photo {
+  margin: auto;
+  width: max-content;
+  justify-content: space-between;
+  display: flex;
+  gap: 10px;
 }
 
 .instaphoto {
-    position: relative;
-  }
-  
-  .instagramlogo {
-    width: 200px;
-    height: 200px;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    opacity: 0;
-    transition: opacity 0.3s ease;
-  }
-  
-  .instaphoto:hover .instagramlogo {
-    opacity:4;
-  }
-.newsletter-instagram{
-
-    background-color: #1E28320D;
-}
-.discountsonInstagramheadline{
-    padding: 10px 0px 10px 0px;
-    text-align: center;
-    font-size: auto;
-    font-family: 'roboto'
-}
-.Instagram-email{
-    border: 0px;
-    border-bottom: 2px solid black;
-    background: none;
-    margin: 0 auto;
-    width: 643px;
-    height: 32px;
-    top: 622px;
-    left: 517px;
-    gap: 0px;
-    opacity: 0px
-
+  position: relative;
 }
 
-    
+.instagramlogo {
+  width: 200px;
+  height: 200px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  opacity: 0;
+  transition: opacity 0.3s ease;
+}
 
-
-.instagramsubmitbutton {
-    border: 0px;
-    border-bottom: 2px solid black;
-    margin: 0 auto;
-    height: 32px;
-    cursor: pointer;
-    
+.instaphoto:hover .instagramlogo {
+  opacity: 4;
+}
+.newsletter-instagram {
+  background-color: #1e28320d;
+}
+.discountsonInstagramheadline {
+  padding: 10px 0px 10px 0px;
+  text-align: center;
+  font-size: auto;
+  font-family: "roboto";
+}
+.Instagram-email {
+  border: 0px;
+  border-bottom: 2px solid black;
+  background: none;
+  margin: 0 auto;
+  width: 643px;
+  height: 32px;
+  top: 622px;
+  left: 517px;
+  gap: 0px;
+  opacity: 0px;
 }
 
 .instagramsubmitbutton:hover {
-    border-bottom-width: 3px; 
-    color: orangered;
-    border-bottom: 2px solid orangered;
-    transform: translate()scale() 1px;
+  border-bottom-width: 3px;
+  color: orangered;
+  border-bottom: 2px solid orangered;
+  transform: translate() scale() 1px;
 }
 
-
-
-.subscribeheadline{
-   font-family: 'roboto';
-   text-align: center; 
-   text-shadow: 0px 0px 10px 0px black;
-   font-weight: bolder
+.subscribeheadline {
+  font-family: "roboto";
+  text-align: center;
+  text-shadow: 0px 0px 10px 0px black;
+  font-weight: bolder;
 }
-
-;
-
