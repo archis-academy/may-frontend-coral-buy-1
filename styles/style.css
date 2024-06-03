@@ -1,36 +1,207 @@
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-  text-decoration: none;
-}
-
-@keyframes slide {
-  from {
-    transform: translateX(0);
+.logoo{
+  position: relative;
+  left: 200px;
+  height: 34px;
+  width: 180px;
   }
-  to {
-    transform: translateX(-100%);
+  
+  .yazi{
+      color:#1E2832BF;
+      position: relative;
+      left: 200px; top: 17px;
+      font-weight: 400px;
+      display: block;
+      text-align: justify;
+      size: 16px;
+      margin: 10px 0px;
+      font-family: 'Open Sans' ;
+  
   }
-}
-
-.brand-logos-img {
-  overflow: hidden;
-  display: flex;
-  justify-content: space-between;
-  white-space: nowrap;
-  max-width: 1350px;
-  margin: 0 auto;
-}
-
-.brand-logos-img:hover .logos-slide {
-  animation-play-state: paused;
-}
-
-.logos-slide {
-  display: inline-block;
-  animation: 10s slide infinite linear;
-}
-.logos-slide img {
-  padding: 0 40px;
-}
+  
+  .face-logo{
+      position: relative;
+      left: 200px; top: 17px;
+      border-style: solid;
+      border: none;
+      padding: square;
+      margin: 13px 0%;
+      height: 20px;
+  }
+  
+  .twitter-logo{
+      position: relative;
+      left: 200px; top: 17px;
+      margin: 13px 25px;
+      height: 20px;
+      
+  }
+  
+  .lnkedin-logo{
+      position: relative;
+      left: 200px; top: 17px;
+      margin: 13px 2px;
+      height: 20px;
+  }
+  
+  .insta-logo{
+      position: relative;
+      left: 200px; top: 17px;
+      margin: 13px 22px;
+      height: 20px;
+  }
+  
+  .first-part{
+      margin: 80px 0px;
+      gap: 32px;
+  }
+  
+  .title1{
+      position: relative;
+      left: 657px; bottom: 211px ;
+      font-family:'Open Sans';
+      font-weight: 600;
+      font-size: 16px;
+      color: black;
+  }
+  .second{
+      position: relative;
+      left: 657px; bottom: 203px;
+      font-family: 'Open Sans';
+      font-weight: 400;
+      font-size: 14px;
+      color: #1E2832;
+      gap: 12px;
+  
+  }
+  
+  .title2{
+      position: relative;
+      left: 930px; bottom: 415px;
+      font-family:'Open Sans';
+      font-weight: 600;
+      font-size: 16px;
+      color: black;
+  }
+  
+  .third{
+      position: relative;
+      left: 929px; bottom: 408px;
+      font-family:'Open Sans';
+      font-weight: 400;
+      font-size: 14px;
+      color: #1E2832;
+      gap: 12px;
+  }
+  
+  .title3{
+      position: relative;
+      left: 1216px; bottom: 622px;
+      font-family:'Open Sans';
+      font-weight: 600;
+      font-size: 16px;
+      color: black;
+  }
+  
+  .fourth{
+      position: relative;
+      left: 1217px; bottom: 616px;
+      font-family:'Open Sans';
+      font-weight: 400;
+      font-size: 14px;
+      color: #1E2832;
+      gap: 12px;
+  }
+  .n:hover{
+      color: coral;
+  }
+  .h:hover{
+      color: coral;
+  }
+  .j:hover{
+      color: coral;
+  }
+  .t:hover{
+      color: coral;
+  }
+  .ja:hover{
+      color: coral;
+  }
+  .o:hover{
+      color: coral;
+  }
+  .s:hover{
+      color: coral;
+  }
+  .f:hover{
+      color: coral;
+  }
+  .a:hover{
+      color: coral;
+  }
+  .te:hover{
+      color: coral;
+  }
+  .c:hover{
+      color: coral;
+  }
+  .tr:hover{
+      color: coral;
+  }
+  .p:hover{
+      color: coral;
+  }
+  .b:hover{
+      color: coral;
+  }
+  .sh:hover{
+      color: coral;
+  }
+  .all{
+      cursor: default;
+  }
+  .box{
+      position: relative;
+      bottom: 550px;
+      border: 2px solid #000;
+      background-color: #1E2832;
+      padding: 0px 310px 0px 290px;
+      gap: 340px;
+      opacity: 0px;
+      color: #1E2832;
+  }
+  .coral{
+      position: relative;
+      right: 30px;
+      color: #FFFFFF;
+      font-family:'Open Sans';
+      font-weight: 400;
+      size: 16px;
+  }
+  .icons{
+      position: relative;
+      left: 234px; top: 14px;
+      width: 283px;
+      height: 24px;
+  }
+  .in{
+      text-align: center;
+      display: inline-flex;
+  }
+  
+  .scroll{
+      position: relative;
+      left: 454px;
+      color: #FFFFFF;
+      font-family:'Open Sans';
+      font-weight: 400;
+      size: 16px;
+  }
+  .icon{
+      position: relative;
+      left: 467px; top: 20px;
+      width: 16px;
+      height: 14px;
+      font-weight: 900;
+      size: 14px;
+      color: #FFFFFF;
+  }
