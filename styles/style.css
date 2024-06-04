@@ -30,8 +30,23 @@
   position: relative;
 }
 
+.hc-text {
+  display: none;
+}
+
 .hc-main-card {
   grid-area: card-main;
+  position: relative;
+}
+
+.hc-card {
+  position: relative;
+}
+
+.hc-main-card:hover .overlay-hc,
+.hc-card:hover .overlay-hc {
+  opacity: 1;
+  transition: 0.3s ease;
 }
 
 .hc-card-1 {
@@ -50,9 +65,44 @@
   grid-area: card-4;
 }
 
-/* Mobile screen */
+.overlay-hc {
+  opacity: 0;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 50px;
+  background-color: rgba(0, 0, 0, 0.5);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: white;
+  font-size: 20px;
+  padding: 0 20px;
+  transition: 0.3s ease;
+}
 
-@media screen and (max-width: 1300px) {
+/* Desktop screen */
+
+@media screen and (min-width: 1380px) {
+  .hot-category {
+    padding: 0 30px 0 50px;
+    &::after {
+      content: "Explore new and popular styles";
+      font-size: 34px;
+      text-transform: uppercase;
+      transform-origin: 0 0;
+      transform: rotate(-90deg);
+      position: absolute;
+      bottom: 0;
+      left: 0;
+    }
+  }
+}
+
+/* Tablet screen */
+
+@media screen and (max-width: 1380px) {
   .hot-category {
     padding: 0 30px 0 50px;
     min-width: 200px;
@@ -78,20 +128,35 @@
   }
 }
 
-/* Desktop screen */
+/* Mobile screen */
 
-@media screen and (min-width: 1300px) {
+@media screen and (max-width: 768px) {
   .hot-category {
-    padding: 0 30px 0 50px;
+    position: relative;
+    grid-template-columns: repeat(1, minmax(250px, 500px));
+    grid-template-rows: repeat(5, minmax(250px, 500px));
+    grid-template-areas:
+      "card-main"
+      "card-1"
+      "card-2"
+      "card-3"
+      "card-4";
+
     &::after {
-      content: "Explore new and popular styles";
-      font-size: 34px;
+      display: none;
+    }
+  }
+
+  .hc-text {
+    display: block;
+
+    h2 {
+      text-align: center;
+      padding: 5px;
+      font-family: "Roboto", sans-serif;
+      font-size: 16px;
+      font-weight: 400;
       text-transform: uppercase;
-      transform-origin: 0 0;
-      transform: rotate(-90deg);
-      position: absolute;
-      bottom: 0;
-      left: 0;
     }
   }
 }
