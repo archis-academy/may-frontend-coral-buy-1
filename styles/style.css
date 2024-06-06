@@ -1,3 +1,17 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+.newsletter-instagram {
+  background-color: #1e28320d;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  margin: 75px 0px 75px 0px;
+}
+.discountsonInstagramheadline {
+  margin: 50px 0px 0px 0px;
+}
 .email {
   font-family: "roboto";
   text-align: center;
@@ -5,18 +19,23 @@
 .instagram-photo {
   margin: auto;
   width: max-content;
-  justify-content: space-between;
+  justify-content: center;
   display: flex;
+  flex-wrap: wrap;
   gap: 10px;
 }
 
-.instaphoto {
+.instaphoto-box {
   position: relative;
 }
-
+.newsletter {
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
 .instagramlogo {
-  width: 200px;
-  height: 200px;
+  width: 150px;
+  height: 100px;
+  object-fit: contain;
   position: absolute;
   top: 50%;
   left: 50%;
@@ -25,14 +44,12 @@
   transition: opacity 0.3s ease;
 }
 
-.instaphoto:hover .instagramlogo {
+.instaphoto-box:hover .instagramlogo {
   opacity: 4;
 }
-.newsletter-instagram {
-  background-color: #1e28320d;
-}
+
 .discountsonInstagramheadline {
-  padding: 10px 0px 10px 0px;
+  margin: 20px 0px 30px 0px;
   text-align: center;
   font-size: auto;
   font-family: "roboto";
@@ -49,12 +66,14 @@
   gap: 0px;
   opacity: 0px;
 }
-
+.instagramsubmitbutton {
+  border: 0px;
+  border-bottom: 2px solid black;
+}
 .instagramsubmitbutton:hover {
   border-bottom-width: 3px;
   color: orangered;
   border-bottom: 2px solid orangered;
-  transform: translate() scale() 1px;
 }
 
 .subscribeheadline {
