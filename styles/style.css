@@ -13,8 +13,13 @@
   margin: 50px 0px 0px 0px;
 }
 .email {
+  max-width: 800px;
   font-family: "roboto";
+  white-space: nowrap;
+  margin: 0 auto;
+  display: flex;
   text-align: center;
+  
 }
 .instagram-photo {
   margin: auto;
@@ -59,8 +64,9 @@
   border-bottom: 2px solid black;
   background: none;
   margin: 0 auto;
-  width: 643px;
+  flex: 1;
   height: 32px;
+  outline: none;
   top: 622px;
   left: 517px;
   gap: 0px;
@@ -68,6 +74,7 @@
 }
 .instagramsubmitbutton {
   border: 0px;
+  padding-bottom: 7px;
   border-bottom: 2px solid black;
 }
 .instagramsubmitbutton:hover {
