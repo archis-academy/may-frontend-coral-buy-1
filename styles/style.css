@@ -12,7 +12,7 @@ body {
 
 .bs-container {
   max-width: 1320px;
-  height: 639px;
+  min-height: 639px;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -22,7 +22,7 @@ body {
 }
 
 .bs-sub-title {
-  font-size: clamp(25px, 5vw, 50px);
+  font-size: clamp(30px, 5vw, 50px);
   font-weight: 500;
 }
 
@@ -65,13 +65,18 @@ body {
   font-weight: 400;
 }
 
+.bs-show-all-btn:hover {
+  background-color: rgb(79, 79, 79);
+  transition: all 0.5s;
+}
+
 .swiper {
-  width: 100%;
+  width: 100% !important;
   height: 100%;
 }
 
 .swiper-slide {
-  max-width: 373px;
+  max-width: 373px !important;
 }
 
 .swiper-button-next {
@@ -98,6 +103,7 @@ body {
 
 .bs-card:hover {
   opacity: 0.3;
+  transition: all 0.3s;
 }
 
 .bs-card-img-wrapper {
@@ -192,7 +198,8 @@ body {
 
 @media screen and (max-width: 480px) {
   .bs-container {
-    height: 660px;
+    margin: 0;
+    height: 760px;
   }
   .bs-menu {
     flex-direction: column;
@@ -200,14 +207,20 @@ body {
     margin-bottom: 15px;
   }
 
+  .swiper-slide {
+    max-width: 900px !important;
+  }
+
   .bs-menu-items {
     max-width: 100%;
     gap: 10px;
   }
-  .swiper {
-    width: 85%;
+
+  .bs-show-all-btn {
+    margin-top: 15px;
   }
+
   .bs-card {
-    max-width: 1000px;
+    max-width: 900px !important;
   }
 }
