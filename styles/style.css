@@ -37,10 +37,12 @@
 .hc-main-card {
   grid-area: card-main;
   position: relative;
+  cursor: pointer;
 }
 
 .hc-card {
   position: relative;
+  cursor: pointer;
 }
 
 .hc-main-card:hover .overlay-hc,
@@ -155,7 +157,7 @@
       padding: 5px;
       font-family: "Roboto", sans-serif;
       font-size: 16px;
-      font-weight: 400;
+      font-weight: bold;
       text-transform: uppercase;
     }
   }
