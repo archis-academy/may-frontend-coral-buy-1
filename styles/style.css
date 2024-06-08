@@ -389,3 +389,139 @@ body {
 }
 
 /* Serdest - Best Seller End*/
+
+/* Onur - Product Details Start */
+.main{
+ 
+  display: flex;
+  margin-left: 180px;
+  margin-right: 180px;
+ 
+  
+ 
+ 
+
+}
+.large-img{
+  
+  width: 450px;
+  height: 550px;
+  
+
+}
+.small-img{
+  
+  width: 100px;
+  height: 100px;
+  display: flex;
+  margin-bottom: 5px;
+  margin-left: 10px;
+  margin-right: 10px;
+  
+ 
+}
+.right{
+  margin-left: 30px;
+ 
+ 
+
+}
+.adicolor{
+  
+
+}
+.regular{
+  
+  font-style: inherit;
+  color: #979896c8;
+  margin-top: 15px;
+
+}
+.buttons{
+  margin-top: 15px;
+  
+}
+.pink{
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  background-color: #a67980;
+  border: 1px solid #a67980;
+}
+.blue{
+  width: 20px;
+height: 20px;
+border-radius: 50%;
+background-color:#6d9dc4;
+border: 1px solid #6d9dc4;
+
+}
+.green{
+  width: 20px;
+height: 20px;
+border-radius: 50%;
+background-color: #66ab85;
+border: 1px solid #66ab85;
+
+}
+.purple{
+  width: 20px;
+height: 20px;
+border-radius: 50%;
+background-color: #8d6cbc;
+border: 1px solid #8d6cbc;
+
+}
+.select{
+  width: 650px;
+  height: 40px;
+  margin-top: 10px;
+  
+  
+  
+
+}
+.choose{
+  font-weight: 200 ;
+
+}
+.product{
+  margin-top: 30px;
+
+}
+.text{
+  
+  margin-top: 10px;
+  font-family: 'Times New Roman', Times, serif;
+  color:#979896c8;
+  padding-right: 100px;
+}
+.price-add{
+  margin-top: 170px;
+  display: flex;
+  justify-content: space-between;
+  
+  
+  
+  
+
+}
+.add-button{
+  width: 200px;
+  height:30px;
+  
+  padding-right: 50px;
+  margin-right: 75px;
+  font-size: large;
+  font-weight: 20%;
+  align-items: center;
+  
+  
+}
+.button{
+  
+  justify-content: space-between;
+}
+
+/* Onur - Product Details End */
+
