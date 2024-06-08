@@ -12,317 +12,407 @@
       rel="stylesheet"
     />
     <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap"
+      rel="stylesheet"
+    />
+    <link
       rel="stylesheet"
       href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
     />
   </head>
   <body>
-    <!-- Hot Category Grid start -->
-    <div class="hc-text"><h2>Explore new and popular styles</h2></div>
-    <div class="hot-category-container">
-      <div class="hot-category">
-        <div class="hc-main-card hover-hc">
-          <img
-            src="./images/hot-category/kart1.png"
-            alt="Hot Category images"
-          />
-          <div class="overlay-hc">
-            <p>Manto</p>
-            <p>86 Product</p>
-          </div>
-        </div>
-        <div class="hc-card-1 hc-card">
-          <img
-            src="./images/hot-category/kart2.png"
-            alt="Hot Category images"
-          />
-          <div class="overlay-hc">
-            <p>Pants</p>
-            <p>200 Product</p>
-          </div>
-        </div>
-        <div class="hc-card-2 hc-card">
-          <img
-            src="./images/hot-category/kart4.png"
-            alt="Hot Category images"
-          />
-          <div class="overlay-hc">
-            <p>Coat</p>
-            <p>520 Product</p>
-          </div>
-        </div>
-        <div class="hc-card-3 hc-card">
-          <img
-            src="./images/hot-category/kart3.png"
-            alt="Hot Category images"
-          />
-          <div class="overlay-hc">
-            <p>Shirt</p>
-            <p>320 Product</p>
-          </div>
-        </div>
-        <div class="hc-card-4 hc-card">
-          <img
-            src="./images/hot-category/kart5.png"
-            alt="Hot Category images"
-          />
-          <div class="overlay-hc">
-            <p>Jacket</p>
-            <p>86 Product</p>
-          </div>
-        </div>
-      </div>
-    </div>
-    <!-- Hot Category Grid end -->
-
-    <!-- Best Seller Start -->
-    <div class="bs-container">
-      <!-- #Card Title -->
-      <div class="bs-title">
-        <h2 class="bs-sub-title">BEST SELLER</h2>
-      </div>
-
-      <!-- #Card Navbar -->
-      <div class="bs-menu">
-        <ul class="bs-menu-items">
-          <li class="bs-menu-item">
-            <a href="/" class="active">All Products</a>
+    <!-- #Product View Template START -->
+    <div class="pvt-container">
+      <!-- =>Title Start -->
+      <h1 class="pvt-title">Or Subscribe To The Newsletter</h1>
+      <!-- =>Title Start -->
+      <!-- =>Nav Manu Start -->
+      <div class="pvt-nav-menu">
+        <ul class="pvt-menu-items">
+          <li class="pvt-menu-item pvt-active">
+            <a href="#" class="pvt-link">All Products</a>
           </li>
-          <li class="bs-menu-item"><a href="/">T-Shirt</a></li>
-          <li class="bs-menu-item"><a href="/">Hoodies</a></li>
-          <li class="bs-menu-item"><a href="/">Jacket</a></li>
+          <li class="pvt-menu-item">
+            <a href="#" class="pvt-link">T-Shirt</a>
+          </li>
+          <li class="pvt-menu-item">
+            <a href="#" class="pvt-link">Hoodies</a>
+          </li>
+          <li class="pvt-menu-item"><a href="#" class="pvt-link">Jacket</a></li>
         </ul>
-        <button class="bs-show-all-btn">Show All</button>
+        <button class="pvt-filter-btn">
+          <img
+            src="/images/product-view-template-images/product-view-template-icon.png"
+            alt="product view filter icon"
+            class="pvt-filter-btn-icon"
+          />
+          Filter
+        </button>
       </div>
-
-      <!-- #Cards -->
-      <div class="swiper">
-        <div class="swiper-wrapper">
-          <!-- =>Card - 1 -->
-          <div class="swiper-slide">
-            <div class="bs-card">
-              <div class="bs-card-img-wrapper">
-                <img
-                  src="images/product-card-template-images/product-card-template-dress.png"
-                  alt="basic green dress"
-                  class="bs-card-img"
-                />
-                <div class="bs-sale hot">
-                  <span>HOT</span>
-                </div>
-              </div>
-              <div class="bs-card-body">
-                <div class="bs-card-header">Basic Dress Green</div>
-                <div class="bs-card-footer">
-                  <span class="bs-card-ctg">Dress</span>
-                  <span class="bs-card-price">$236.00</span>
-                </div>
-              </div>
-            </div>
-          </div>
-          <!-- =>Card - 2 -->
-          <div class="swiper-slide">
-            <div class="bs-card">
-              <div class="bs-card-img-wrapper">
-                <img
-                  src="images/product-card-template-images/product-card-template-bag.png"
-                  alt="nike sportswear futura luxa"
-                  class="bs-card-img"
-                />
-              </div>
-              <div class="bs-card-body">
-                <div class="bs-card-header">Nike Sportswear Futura Luxa</div>
-                <div class="bs-card-footer">
-                  <span class="bs-card-ctg">Bag</span>
-                  <span class="bs-card-price">$130.00</span>
-                </div>
+      <!-- =>Nav Manu End -->
+      <!-- =>Cards Start -->
+      <div class="pvt-product-cards">
+        <div class="pvt-product-card">
+          <div class="pvt-card-img">
+            <img
+              src="/images/product-view-template-images/product-view-template-jogger.png"
+              alt="jogger"
+              class="pvt-product-card-img"
+            />
+            <div class="pvt-badget-wrapper pvt-hidden">
+              <div class="pvt-badget">
+                <ul class="pvt-badget-items">
+                  <li class="pvt-badget-item">
+                    <img
+                      src="/images/product-view-template-images/heart.png"
+                      alt=""
+                      class="pvt-badget-heart"
+                    />
+                  </li>
+                  <li class="pvt-badget-item">
+                    <img
+                      src="/images/product-view-template-images/search-img.png"
+                      alt=""
+                      class="pvt-badget-search"
+                    />
+                  </li>
+                  <li class="pvt-badget-item">
+                    <img
+                      src="/images/product-view-template-images/shoping-icon.svg"
+                      alt=""
+                      class="pvt-badget-shop"
+                    />
+                    Shope Now
+                  </li>
+                </ul>
               </div>
             </div>
           </div>
-          <!-- =>Card - 3 -->
-          <div class="swiper-slide">
-            <div class="bs-card">
-              <div class="bs-card-img-wrapper">
-                <img
-                  src="images/product-card-template-images/product-card-template-hoodie.png"
-                  alt="yellow reserved hoodie"
-                  class="bs-card-img"
-                />
-                <div class="bs-sale default">
-                  <span>SALE</span>
-                </div>
-              </div>
-              <div class="bs-card-body">
-                <div class="bs-card-header">Yellow Reserved Hoodie</div>
-                <div class="bs-card-footer">
-                  <span class="bs-card-ctg">Dress</span>
-                  <span class="bs-card-price bs-price-old">
-                    <del>$364.00</del>
-                    <span class="bs-price-new">$155.00</span>
-                  </span>
-                </div>
-              </div>
-            </div>
-          </div>
-          <!-- =>Card - 4 -->
-          <div class="swiper-slide">
-            <div class="bs-card">
-              <div class="bs-card-img-wrapper">
-                <img
-                  src="images/product-card-template-images/product-card-template-shoe.png"
-                  alt="nike air zoom pegasus"
-                  class="bs-card-img"
-                />
-                <div class="bs-sale default">
-                  <span>SALE</span>
-                </div>
-              </div>
-              <div class="bs-card-body">
-                <div class="bs-card-header">Nike Air Zoom Pegasus</div>
-                <div class="bs-card-footer">
-                  <span class="bs-card-ctg">Shoe</span>
-                  <span class="bs-card-price bs-price-old">
-                    <del>$220.00</del>
-                    <span class="bs-price-new">$198.00</span>
-                  </span>
-                </div>
-              </div>
-            </div>
-          </div>
-          <!-- =>Card - 5 -->
-          <div class="swiper-slide">
-            <div class="bs-card">
-              <div class="bs-card-img-wrapper">
-                <img
-                  src="images/product-card-template-images/product-card-template-dress.png"
-                  alt="basic green dress"
-                  class="bs-card-img"
-                />
-                <div class="bs-sale hot">
-                  <span>HOT</span>
-                </div>
-              </div>
-              <div class="bs-card-body">
-                <div class="bs-card-header">Basic Dress Green</div>
-                <div class="bs-card-footer">
-                  <span class="bs-card-ctg">Dress</span>
-                  <span class="bs-card-price">$236.00</span>
-                </div>
-              </div>
-            </div>
-          </div>
-          <!-- =>Card - 6 -->
-          <div class="swiper-slide">
-            <div class="bs-card">
-              <div class="bs-card-img-wrapper">
-                <img
-                  src="images/product-card-template-images/product-card-template-bag.png"
-                  alt="nike sportswear futura luxa"
-                  class="bs-card-img"
-                />
-              </div>
-              <div class="bs-card-body">
-                <div class="bs-card-header">Nike Sportswear Futura Luxa</div>
-                <div class="bs-card-footer">
-                  <span class="bs-card-ctg">Bag</span>
-                  <span class="bs-card-price">$130.00</span>
-                </div>
-              </div>
-            </div>
-          </div>
-          <!-- =>Card - 7 -->
-          <div class="swiper-slide">
-            <div class="bs-card">
-              <div class="bs-card-img-wrapper">
-                <img
-                  src="images/product-card-template-images/product-card-template-hoodie.png"
-                  alt="yellow reserved hoodie"
-                  class="bs-card-img"
-                />
-                <div class="bs-sale default">
-                  <span>SALE</span>
-                </div>
-              </div>
-              <div class="bs-card-body">
-                <div class="bs-card-header">Yellow Reserved Hoodie</div>
-                <div class="bs-card-footer">
-                  <span class="bs-card-ctg">Dress</span>
-                  <span class="bs-card-price bs-price-old">
-                    <del>$364.00</del>
-                    <span class="bs-price-new">$155.00</span>
-                  </span>
-                </div>
-              </div>
-            </div>
-          </div>
-          <!-- =>Card - 8 -->
-          <div class="swiper-slide">
-            <div class="bs-card">
-              <div class="bs-card-img-wrapper">
-                <img
-                  src="images/product-card-template-images/product-card-template-shoe.png"
-                  alt="nike air zoom pegasus"
-                  class="bs-card-img"
-                />
-                <div class="bs-sale default">
-                  <span>SALE</span>
-                </div>
-              </div>
-              <div class="bs-card-body">
-                <div class="bs-card-header">Nike Air Zoom Pegasus</div>
-                <div class="bs-card-footer">
-                  <span class="bs-card-ctg">Shoe</span>
-                  <span class="bs-card-price bs-price-old">
-                    <del>$220.00</del>
-                    <span class="bs-price-new">$198.00</span>
-                  </span>
-                </div>
-              </div>
-            </div>
+          <span class="pvt-product-card-title">Adicolor Classics Joggers</span>
+          <div class="pvt-product-card-footer">
+            <span class="pvt-product-category">Dress</span>
+            <span class="pvt-product-price">$63.85</span>
           </div>
         </div>
-
-        <!-- Slider navigation buttons -->
-        <div class="swiper-button-prev"></div>
-        <div class="swiper-button-next"></div>
+        <div class="pvt-product-card">
+          <div class="pvt-card-img">
+            <img
+              src="/images/product-view-template-images/product-view-template-bag.png"
+              alt="bag"
+              class="pvt-product-card-img"
+            />
+            <div class="pvt-badget-wrapper pvt-hidden">
+              <div class="pvt-badget">
+                <ul class="pvt-badget-items">
+                  <li class="pvt-badget-item">
+                    <img
+                      src="/images/product-view-template-images/heart.png"
+                      alt=""
+                      class="pvt-badget-heart"
+                    />
+                  </li>
+                  <li class="pvt-badget-item">
+                    <img
+                      src="/images/product-view-template-images/search-img.png"
+                      alt=""
+                      class="pvt-badget-search"
+                    />
+                  </li>
+                  <li class="pvt-badget-item">
+                    <img
+                      src="/images/product-view-template-images/shoping-icon.svg"
+                      alt=""
+                      class="pvt-badget-shop"
+                    />
+                    Shope Now
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+          <span class="pvt-product-card-title"
+            >Nike Sportswear Futura Luxe</span
+          >
+          <div class="pvt-product-card-footer">
+            <span class="pvt-product-category">Bag</span>
+            <span class="pvt-product-price">$130.00</span>
+          </div>
+        </div>
+        <div class="pvt-product-card">
+          <div class="pvt-card-img">
+            <img
+              src="/images/product-view-template-images/product-view-template-scraft.png"
+              alt="scarft"
+              class="pvt-product-card-img"
+            />
+            <div class="pvt-badget-wrapper pvt-hidden">
+              <div class="pvt-badget">
+                <ul class="pvt-badget-items">
+                  <li class="pvt-badget-item">
+                    <img
+                      src="/images/product-view-template-images/heart.png"
+                      alt=""
+                      class="pvt-badget-heart"
+                    />
+                  </li>
+                  <li class="pvt-badget-item">
+                    <img
+                      src="/images/product-view-template-images/search-img.png"
+                      alt=""
+                      class="pvt-badget-search"
+                    />
+                  </li>
+                  <li class="pvt-badget-item">
+                    <img
+                      src="/images/product-view-template-images/shoping-icon.svg"
+                      alt=""
+                      class="pvt-badget-shop"
+                    />
+                    Shope Now
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+          <span class="pvt-product-card-title">AGeometric print Scarf</span>
+          <div class="pvt-product-card-footer">
+            <span class="pvt-product-category">Scarf</span>
+            <span class="pvt-product-price">$53.00</span>
+          </div>
+        </div>
+        <div class="pvt-product-card">
+          <div class="pvt-card-img">
+            <img
+              src="/images/product-view-template-images/product-view-template-hoodie.png"
+              alt="jogger"
+              class="pvt-product-card-img"
+            />
+            <div class="pvt-badget-wrapper pvt-hidden">
+              <div class="pvt-badget">
+                <ul class="pvt-badget-items">
+                  <li class="pvt-badget-item">
+                    <img
+                      src="/images/product-view-template-images/heart.png"
+                      alt=""
+                      class="pvt-badget-heart"
+                    />
+                  </li>
+                  <li class="pvt-badget-item">
+                    <img
+                      src="/images/product-view-template-images/search-img.png"
+                      alt=""
+                      class="pvt-badget-search"
+                    />
+                  </li>
+                  <li class="pvt-badget-item">
+                    <img
+                      src="/images/product-view-template-images/shoping-icon.svg"
+                      alt=""
+                      class="pvt-badget-shop"
+                    />
+                    Shope Now
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+          <span class="pvt-product-card-title">Yellow Reserved Hoodie</span>
+          <div class="pvt-product-card-footer">
+            <span class="pvt-product-category">Dress</span>
+            <span class="pvt-product-price">$155.00</span>
+          </div>
+        </div>
+        <div class="pvt-product-card">
+          <div class="pvt-card-img">
+            <img
+              src="/images/product-view-template-images/product-view-template-dress.png"
+              alt="jogger"
+              class="pvt-product-card-img"
+            />
+            <div class="pvt-badget-wrapper pvt-hidden">
+              <div class="pvt-badget">
+                <ul class="pvt-badget-items">
+                  <li class="pvt-badget-item">
+                    <img
+                      src="/images/product-view-template-images/heart.png"
+                      alt=""
+                      class="pvt-badget-heart"
+                    />
+                  </li>
+                  <li class="pvt-badget-item">
+                    <img
+                      src="/images/product-view-template-images/search-img.png"
+                      alt=""
+                      class="pvt-badget-search"
+                    />
+                  </li>
+                  <li class="pvt-badget-item">
+                    <img
+                      src="/images/product-view-template-images/shoping-icon.svg"
+                      alt=""
+                      class="pvt-badget-shop"
+                    />
+                    Shope Now
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+          <span class="pvt-product-card-title">Basic Dress Green</span>
+          <div class="pvt-product-card-footer">
+            <span class="pvt-product-category">Dress</span>
+            <span class="pvt-product-price">$236.00</span>
+          </div>
+        </div>
+        <div class="pvt-product-card">
+          <div class="pvt-card-img">
+            <img
+              src="/images/product-view-template-images/product-view-template-shoe.png"
+              alt="jogger"
+              class="pvt-product-card-img"
+            />
+            <div class="pvt-badget-wrapper pvt-hidden">
+              <div class="pvt-badget">
+                <ul class="pvt-badget-items">
+                  <li class="pvt-badget-item">
+                    <img
+                      src="/images/product-view-template-images/heart.png"
+                      alt=""
+                      class="pvt-badget-heart"
+                    />
+                  </li>
+                  <li class="pvt-badget-item">
+                    <img
+                      src="/images/product-view-template-images/search-img.png"
+                      alt=""
+                      class="pvt-badget-search"
+                    />
+                  </li>
+                  <li class="pvt-badget-item">
+                    <img
+                      src="/images/product-view-template-images/shoping-icon.svg"
+                      alt=""
+                      class="pvt-badget-shop"
+                    />
+                    Shope Now
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+          <span class="pvt-product-card-title">Nike Air Zoom Pegasus</span>
+          <div class="pvt-product-card-footer">
+            <span class="pvt-product-category">Shoe</span>
+            <span class="pvt-product-price">$198.00</span>
+          </div>
+        </div>
+        <div class="pvt-product-card">
+          <div class="pvt-card-img">
+            <img
+              src="/images/product-view-template-images/product-view-template-jacket.png"
+              alt="jogger"
+              class="pvt-product-card-img"
+            />
+            <div class="pvt-badget-wrapper pvt-hidden">
+              <div class="pvt-badget">
+                <ul class="pvt-badget-items">
+                  <li class="pvt-badget-item">
+                    <img
+                      src="/images/product-view-template-images/heart.png"
+                      alt=""
+                      class="pvt-badget-heart"
+                    />
+                  </li>
+                  <li class="pvt-badget-item">
+                    <img
+                      src="/images/product-view-template-images/search-img.png"
+                      alt=""
+                      class="pvt-badget-search"
+                    />
+                  </li>
+                  <li class="pvt-badget-item">
+                    <img
+                      src="/images/product-view-template-images/shoping-icon.svg"
+                      alt=""
+                      class="pvt-badget-shop"
+                    />
+                    Shope Now
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+          <span class="pvt-product-card-title">Nike Repel Miler</span>
+          <div class="pvt-product-card-footer">
+            <span class="pvt-product-category">Dress</span>
+            <span class="pvt-product-price">$120.50</span>
+          </div>
+        </div>
+        <div class="pvt-product-card">
+          <div class="pvt-card-img">
+            <img
+              src="/images/product-view-template-images/product-view-template-glasses.png"
+              alt="jogger"
+              class="pvt-product-card-img"
+            />
+            <div class="pvt-badget-wrapper pvt-hidden">
+              <div class="pvt-badget">
+                <ul class="pvt-badget-items">
+                  <li class="pvt-badget-item">
+                    <img
+                      src="/images/product-view-template-images/heart.png"
+                      alt=""
+                      class="pvt-badget-heart"
+                    />
+                  </li>
+                  <li class="pvt-badget-item">
+                    <img
+                      src="/images/product-view-template-images/search-img.png"
+                      alt=""
+                      class="pvt-badget-search"
+                    />
+                  </li>
+                  <li class="pvt-badget-item">
+                    <img
+                      src="/images/product-view-template-images/shoping-icon.svg"
+                      alt=""
+                      class="pvt-badget-shop"
+                    />
+                    Shope Now
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+          <span class="pvt-product-card-title"
+            >Nike Sportswear Futura Luxe</span
+          >
+          <div class="pvt-product-card-footer">
+            <span class="pvt-product-category">Dress</span>
+            <span class="pvt-product-price">$160.00</span>
+          </div>
+        </div>
       </div>
+
+      <!-- =>Cards End -->
     </div>
+    <!-- #Product View Template END -->
 
-    <!-- Best Seller End -->
-
-    <!-- Swioer JS Start -->
-    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
     <script>
-      const swiper = new Swiper(".swiper", {
-        slidesPerView: 1,
-        spaceBetween: 30,
-        loop: true,
-        autoplay: {
-          delay: 2500,
-          disableOnInteraction: false,
-        },
+      const pvtCards = document.querySelectorAll(".pvt-product-card");
 
-        // Navigation arrows
-        navigation: {
-          nextEl: ".swiper-button-next",
-          prevEl: ".swiper-button-prev",
-        },
-        breakpoints: {
-          480: {
-            slidesPerView: 2,
-            spaceBetween: 20,
-          },
-          768: {
-            slidesPerView: 3,
-            spaceBetween: 10,
-          },
-          1024: {
-            slidesPerView: 4,
-            spaceBetween: 20,
-          },
-        },
+      pvtCards.forEach((pvtCard) => {
+        const pvtBagdetWrapper = pvtCard.querySelector(".pvt-badget-wrapper");
+
+        pvtCard.addEventListener("mouseover", () => {
+          pvtBagdetWrapper.classList.remove("pvt-hidden");
+          console.log("çalıştı");
+        });
+
+        pvtCard.addEventListener("mouseout", () => {
+          pvtBagdetWrapper.classList.add("pvt-hidden");
+        });
       });
     </script>
-    <!-- Swioer JS End -->
   </body>
 </html>
