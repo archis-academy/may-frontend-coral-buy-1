@@ -3,40 +3,25 @@
   padding: 0px;
   box-sizing: border-box;
 }
-.newsletter-instagram {
-  background-color: #1e28320d;
-  padding-top: 10px;
-  padding-bottom: 10px;
-  margin: 75px 0px 75px 0px;
-}
 .discountsonInstagramheadline {
   margin: 50px 0px 0px 0px;
 }
-.email {
-  max-width: 800px;
-  font-family: "roboto";
-  white-space: nowrap;
-  margin: 0 auto;
-  display: flex;
-  text-align: center;
-  
-}
+
 .instagram-photo {
   margin: auto;
-  width: max-content;
+  width: fit-content;
   justify-content: center;
   display: flex;
   flex-wrap: wrap;
   gap: 10px;
 }
-
+.instagram-photo img:hover {
+  filter: brightness(50%);
+}
 .instaphoto-box {
   position: relative;
 }
-.newsletter {
-  padding-top: 50px;
-  padding-bottom: 50px;
-}
+
 .instagramlogo {
   width: 150px;
   height: 100px;
@@ -53,7 +38,28 @@
   opacity: 4;
 }
 
-.discountsonInstagramheadline {
+.newsletter-instagram {
+  background-color: #1e28320d;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  margin: 75px 0px 75px 0px;
+}
+
+.email {
+  max-width: 800px;
+  font-family: "roboto";
+  white-space: nowrap;
+  margin: 0 auto;
+  display: flex;
+  text-align: center;
+}
+
+.newsletter {
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+.discounts-on-Instagram-headline {
   margin: 20px 0px 30px 0px;
   text-align: center;
   font-size: auto;
